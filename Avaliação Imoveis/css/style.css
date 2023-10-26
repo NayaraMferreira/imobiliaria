@@ -1,0 +1,157 @@
+:root {
+  --primary: #00b98e;
+  --secondary: #effdf5;
+  --light: #effdf5;
+  --dark: #0e2e50;
+}
+
+/*Fonte: Heebo*/
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: var(--light-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  height: 90px;
+}
+
+.logo{
+  margin: 15px;
+  padding: 15px;
+}
+
+.menu ul{
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  margin: 25px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #00b98e;
+  font-size: 25px;
+}
+.menu ul li a:hover {
+  color: #0e2e50;
+}
+
+main{
+  background-color: var(--secondary-color);
+  height: 600px;
+  display: flex;
+  width: 100%;
+
+}
+
+.main{
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  justify-content: center;
+}
+
+.titulo-main{
+  color: #0e2e50;
+  text-align: center;
+  padding: 80px;
+  font-size: 25px;
+}
+.descricao-main{
+  color: #1c334b;
+  text-align: center;
+  padding: 45px;
+}
+
+.botao{
+  text-align: center;
+  color: var(--primary-color-);
+  border: none;
+  
+}
+.botao a {
+  text-decoration: none;
+  color: #00b98e;
+  background-color: var(--dark-color);
+  padding: 5px;
+}
+
+.botao a:hover {
+  color: var(--dark-color-hover);
+}
+.botao1{
+  
+  background-color: var(--primary-color-);
+  padding: 20px;
+  border: none;
+}
+
+
+.botoes{
+  display: flex;
+ justify-content: center;
+}
+.main-casa{
+  width: 30%;
+  height: 45%;
+  text-align: center;
+  justify-content: center;
+}
+
+.main-casa figure{
+  width: 20%;
+  height: 20%;
+}
+section{
+  background-color: var(--primary-color);
+}
+.titulo-secao h1{
+  color: #0e2e50;
+  text-align: center;
+  padding: 90px;
+  font-size: 50px;
+  max-height: 10px;
+}
+
+.descricao-secao p{
+  color: #0e2e50;
+  text-align: center;
+  padding: 15px;
+  font-size:  16px ;
+}
+
+.card-predio{
+  display: flex;
+  justify-content: center;
+   border: 1px solid#00b98e;
+}
+
+.card{
+  margin: 15px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid#00b98e;
+
+}
+
+.card-titulo{
+  color: #0e2e50;
+  text-align: center;
+  border: 1px solid#00b98e;
+}
+
+.descricao{
+  color:#0e2e50;
+  text-align: center;
+  border: 1px solid#00b98e;
+}
+
+
