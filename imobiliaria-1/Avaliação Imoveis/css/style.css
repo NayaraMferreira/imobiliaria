@@ -1,0 +1,172 @@
+:root {
+  --primary: #00b98e;
+  --secondary: #effdf5;
+  --light: #effdf5;
+  --dark: #0e2e50;
+}
+
+/*Fonte: Heebo*/
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color:#effdf5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  height:8px;
+ 
+ 
+}
+
+.logo{
+  margin: 15px;
+  padding: 5px;
+}
+.logo p{
+  color:#00b98e;
+}
+
+.menu ul{
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  margin: 25px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #00b98e;
+  font-size: 25px;
+}
+.menu ul li a:hover {
+  color: #0e2e50;
+}
+
+main{
+  background-color: var(--secondary-color);
+  height: 500px;
+  display: flex;
+  width: 100%;
+
+}
+
+.main{
+  width: 50%;
+  height: 10%;
+  text-align: center;
+  justify-content: center;
+}
+
+.titulo-main h1{
+  color: #0e2e50;
+  text-align: center;
+  padding: 2px;
+  font-size: 35px;
+}
+.titulo-main h2{
+  color:#00b98e;
+  text-align: center;
+  padding: 10px;
+  font-size: 35px;
+}
+.titulo-main h3{
+  color: #0e2e50;
+  text-align: center;
+  padding: 10px;
+  font-size: 35px;
+}
+.titulo-main h4{
+  color: #0e2e50;
+  text-align: center;
+  padding: 10px;
+  font-size: 35px;
+}
+.descricao-main{
+  color: #1c334b;
+  text-align: center;
+  padding: 45px;
+}
+
+.botao{
+  text-align: center;
+  color: var(--primary-color-);
+  border: none;
+  
+}
+.botao a {
+  text-decoration: none;
+  color: #00b98e;
+  background-color: var(--dark-color);
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.botao a:hover {
+  color: var(--dark-color-hover);
+}
+
+.main-casa{
+  width: 50%;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+.main-casa figure img{
+  width: 100%;
+}
+section{
+  background-color: #effdf5;
+
+}
+.titulo-secao h1{
+  color: #0e2e50;
+  text-align: center;
+  padding: 90px;
+  font-size: 50px;
+  max-height: 10px;
+}
+
+.descricao-secao p{
+  color: #0e2e50;
+  text-align: center;
+  padding: 15px;
+  font-size:  16px ;
+}
+
+.card{
+  display: flex;
+  justify-content: center;
+   border: 1px solid#00b98e;
+ 
+}
+
+.card{
+  margin: 15px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid#00b98e;
+
+}
+
+.card-titulo{
+  color: #0e2e50;
+  text-align: center;
+  border: 1px solid#00b98e;
+}
+
+.descricao{
+  color:#00b98e;
+  text-align: center;
+  border: 1px solid#00b98e;
+}
+
+
